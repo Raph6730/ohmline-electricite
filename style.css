@@ -401,3 +401,25 @@ nav.main a[aria-current="page"]{color:var(--ink);font-weight:600}
 .faq-item p{color:var(--muted);padding:0 0 18px}
 .source{margin-top:22px;font-size:.85rem;color:var(--muted)}
 .source a{color:var(--accent)}
+
+/* avis */
+.reviews-head{display:flex;flex-wrap:wrap;gap:20px 40px;justify-content:space-between;align-items:flex-end;margin-bottom:32px}
+.rating{display:flex;align-items:center;gap:14px;text-decoration:none;border:1px solid var(--line);border-radius:10px;padding:12px 18px}
+.rating:hover{border-color:var(--accent)}
+.rating b{font:800 2.2rem/1 var(--f-title);font-stretch:112%}
+.rating small{display:block;font-size:.84rem;color:var(--muted);margin-top:4px}
+.stars{display:inline-flex;gap:2px}
+.stars svg{width:16px;height:16px;fill:var(--volt)}
+.reviews{display:grid;gap:16px}
+@media (min-width:700px){.reviews{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1000px){.reviews{grid-template-columns:repeat(3,1fr)}}
+.review{margin:0;border:1px solid var(--line);border-radius:10px;padding:22px;display:flex;flex-direction:column;gap:14px}
+.review blockquote{margin:0;font-size:1rem;line-height:1.6;flex:1}
+.review figcaption{display:flex;gap:12px;align-items:center}
+.review figcaption b{display:block;font-weight:600;font-size:.95rem}
+.review figcaption small{display:block;color:var(--muted);font-size:.82rem}
+.avatar{width:38px;height:38px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font:700 1rem/1 var(--f-title);flex:none}
+.reviews-note{margin-top:18px;font-size:.85rem;color:var(--muted)}
+.reviews-note a{color:var(--accent)}
+.hero-rating{display:flex;align-items:center;gap:10px;margin-top:18px;text-decoration:none;font-size:.92rem;color:var(--muted)}
+.hero-rating b{color:var(--ink)}
