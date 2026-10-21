@@ -453,7 +453,7 @@ nav.main{display:none!important}
 .dn-num{font:500 .8rem/1 var(--f-mono);color:var(--muted);padding-top:6px}
 .drawer-nav a:hover b{color:var(--accent)}
 .drawer-nav a[aria-current="page"] b{color:var(--accent)}
-.drawer-nav a[aria-current="page"]::after{content:"";position:absolute;left:-22px;top:20px;bottom:20px;width:4px;background:var(--volt);border-radius:0 3px 3px 0}
+.drawer-nav a[aria-current="page"]::after{content:"";position:absolute;left:-22px;top:18px;bottom:18px;width:4px;background:var(--volt);border-radius:0 3px 3px 0}
 .drawer-foot{margin-top:auto;display:grid;gap:10px}
 .drawer-foot .btn{width:100%}
 .drawer-foot p{text-align:center;font-size:.85rem;color:var(--muted);margin-top:4px}
