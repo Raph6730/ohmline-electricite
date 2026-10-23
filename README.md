@@ -5,6 +5,9 @@ Site vitrine de Thibaut OhmLine Électricité, artisan électricien à Scharrach
 - `index.html` : page d'accueil + formulaire de devis (`index.html#devis`)
 - `realisations.html` : galerie photos des chantiers
 - `elax.html` : page partenaire Elax
+- `mentions-legales.html`, `confidentialite.html` : pages légales (voir `CONFORMITE.md`)
+- `fonts/` : polices hébergées sur le site (licence SIL OFL)
+- `llms.txt`, `robots.txt`, `sitemap.xml` : pour les moteurs et assistants IA (adresses à mettre à jour avec le nom de domaine)
 - `style.css` : styles communs, `common.js` : script des pages intérieures
 - `assets/` : logo, photos
 

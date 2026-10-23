@@ -1,0 +1,6 @@
+# Ouvert aux moteurs de recherche et aux assistants IA.
+# Note : ce fichier n'a d'effet qu'à la racine d'un domaine (une fois le site sur son propre nom de domaine).
+User-agent: *
+Allow: /
+
+Sitemap: https://raph6730.github.io/ohmline-electricite/sitemap.xml
